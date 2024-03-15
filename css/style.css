@@ -1,36 +1,38 @@
-.tags {
-    margin-top: 10px;
-}
-
-.tag {
-    display: inline-block;
-    background-color: #007bff;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 15px;
-    font-size: 0.8em;
-    margin-right: 5px;
-    margin-bottom: 5px;
-}
-
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #333; /* 暗色背景 */
+    color: #e0e0e0; /* 淺色文字 */
 }
 
 header, section, footer {
     margin: 20px auto;
     width: 90%;
     max-width: 800px;
-    background: white;
+    background: #444; /* 深灰色背景 */
     padding: 20px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 8px;
 }
 
 header h1, section h2 {
-    color: #333;
+    color: #ffffff; /* 白色標題 */
+}
+
+.tags {
+    margin-top: 10px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #555; /* 深灰色標籤背景 */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.8em;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
 ul {
@@ -40,10 +42,28 @@ ul {
 
 li {
     margin-bottom: 10px;
+    line-height: 1.6;
 }
 
 footer {
     text-align: center;
     font-size: 0.9em;
-    color: #666;
+    color: #aaa; /* 淡灰色文字 */
+}
+
+a {
+    color: #adff2f; /* 柔和的連結顏色 */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+em {
+    font-style: italic; /* 專業工具斜體 */
+}
+
+strong {
+    font-weight: bold; /* 重要開頭加粗 */
 }
